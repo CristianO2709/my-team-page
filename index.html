@@ -4,32 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/images/devchallenges.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
     <title>My Team Page</title>
 </head>
 <body>
     <header>
-        <div class="header">
-            <p>The creative crew</p>
+        <div class="heading">
+            <h1>The creative crew</h1>
             <div>
-                <p>Who we are</p>
-                <p>We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world.</p>
+                <h2>Who we are</h2>
+                <h3>We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world.</h3>
             </div>
-        </div>
+        </div>    
     </header>
-
-    <main>
-        <section>
-            <img src="/assets/images/photo1.png" alt="photo1">
-            <img src="/assets/images/photo2.png" alt="photo2">
-            <img src="/assets/images/photo3.png" alt="photo3">
-            <img src="/assets/images/photo4.png" alt="photo4">
-            <img src="/assets/images/photo5.png" alt="photo5">
-            <img src="/assets/images/photo6.png" alt="photo6">
-        </section>
-    </main>
-
-    <footer>
-        <p>created by alvadev - devChallenges.io</p>
-    </footer>
+    <div class="grid-container">
+        <div>
+            <div class="relative-container">
+                <img src="./assets/images/photo1.png" alt="image 1 description" class="item item1">
+                <p class="vertical-info">Product owner</p>  
+            </div>
+            <p class="member">Bill Mahoney</p>
+        </div>
+        <div>
+            <div class="relative-container">
+                <img src="./assets/images/photo2.png" alt="image 2 description" class="item item2">
+                <p class="vertical-info-shifted">Art director</p>
+            </div>
+            <p class="member">Saba Cabrera</p>
+        </div>
+        <div>
+            <div class="relative-container">
+                <img src="./assets/images/photo3.png" alt="image 3 description" class="item item3">
+                <p class="vertical-info">Tech Lead</p>
+            </div>
+            <p class="member">Shae Le</p>
+        </div>
+        <div>
+            <div class="relative-container">
+                <img src="./assets/images/photo4.png" alt="image 4 description" class="item item4">
+                <p class="vertical-info-shifted">UX Designer</p>
+            </div>
+            <p class="member">Skylah Lu</p>
+        </div>
+        <div>
+            <div class="relative-container">
+                <img src="./assets/images/photo5.png" alt="image 5 description" class="item item5">
+                <p class="vertical-info shift-highres">Developer</p>
+            </div>
+            <p class="member">Griff Richards</p>
+        </div>
+        <div>
+            <div class="relative-container">
+              <img src="./assets/images/photo6.png" alt="image 6 description" class="item item6">
+              <p class="vertical-info-shifted">Developer</p>
+            </div>  
+            <p class="member">Stan John</p>
+        </div>
+    </div>
+    <footer>created by alvadev - devChallenges.io</footer>
 </body>
 </html>
